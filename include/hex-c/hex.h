@@ -4,7 +4,7 @@
 
 // return 1 if dest size to small
 //return 2 if empty input
-int bin2hex(unsigned char *dest, size_t destSize, const unsigned char *src, size_t inputSize);
+int bin2hex(char *dest, size_t destSize, const unsigned char *src, size_t inputSize);
 
 /**
  * inputData should have half the memory of inputLength allocated.
